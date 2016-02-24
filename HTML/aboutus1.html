@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Ravalic - Free HTML5 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/contactusstyles.css" type="text/css">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Poppins:400,600,700,500,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,400italic,500,500italic,300,100italic,100,300italic'
+          rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle menu-button" data-toggle="collapse"
+                            data-target="#myNavbar">
+                        <span class="glyphicon glyphicon-align-justify"></span>
+                    </button>
+                    <!--<a class="navbar-brand logo" href="#">Group39</a>-->
+                    <img src="images/logo.png" alt="Group39" style="width:60px;height:60px">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
+                    <ul class="nav navbar-nav navbar-right menu">
+                        <li><a href="index.html" class="page-scroll">Home</a></li>
+                        <li><a href="info.html" class="page-scroll">Game Info</a></li>
+                        <li><a href="clientinfo.html" class="page-scroll">About Tank39</a></li>
+                        <li><a href="aboutus.html" class="page-scroll">About Us</a></li>
+                        <li><a href="contactus.html" class="page-scroll active">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container-fluid work" id="work">
+    <div class="container"></div>
+</div>
+
+<div class="container-fluid countspace">
+    <div class="container">
+        <div class="row"></div>
+    </div>
+</div>
+
+<div class="container-fluid contact" id="section4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center portfolio-text">Contact Us</h2>
+
+                <div class="col-md-6 col-sm-12 col-xs-12contact-form">
+                    <form action="feedback.php" method="post">
+                        <input type="text" name="fullname" class="form-control" placeholder="Name" id="tswname"
+                               size="39"/><br/>
+                        <input type="text" id="tswemail" class="form-control" placeholder="Email" name="email"
+                               size="39"/><br/>
+                        <textarea rows="5" cols="30" class="form-control" placeholder="Message" name="comments"
+                                  id="tswcomments"></textarea><br/>
+
+                        <div class="g-recaptcha" data-sitekey="6Lc6vhATAAAAAIVXW5UJ8BCKejkvXMctPxvx_1lB"></div>
+                        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+                        <noscript>
+                            <div style="width: 302px; height: 352px;">
+                                <div style="width: 302px; height: 352px; position: relative;">
+                                    <div style="width: 302px; height: 352px; position: absolute;">
+                                        <iframe src="https://www.google.com/recaptcha/api/fallback?hl=en&amp;k=6Lc6vhATAAAAAIVXW5UJ8BCKejkvXMctPxvx_1lB"
+                                                frameborder="0" scrolling="no"
+                                                style="width: 302px; height:352px; border-style: none;"
+                                                title="Test for Homo Sapiens"></iframe>
+                                    </div>
+                                    <label for="g-recaptcha-response">Please enter the information requested into the
+                                        box below</label>
+
+                                    <div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+          style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0px; padding: 0px; resize: none;"
+          cols="20" rows="5"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </noscript>
+                        <br/>
+                        <input type="submit" class="btnSend" value="Send Feedback"/><br>
+                    </form>
+
+
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 address-space">
+                    <div id="map-canvas"></div>
+                    <div class="address">
+                        <!--<h3>Address</h3>--><br/>
+
+                        <p><i class="glyphicon glyphicon-map-marker"></i>University of Moratuwa, Katubadda, Sri Lanka
+                        </p>
+
+                        <p><i class="glyphicon glyphicon-earphone"></i>(+94) 71-3633037 | (+94) 71-6124114</p>
+
+                        <p><i class="glyphicon glyphicon-envelope"></i>group39@outlook.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="js/lightbox.min.js"></script>
+<script>
+    function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+            center: new google.maps.LatLng(6.796877, 79.9017781),
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script>
+    $(document).ready(function () {
+        $(document).on("scroll", onScroll);
+
+        $('a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            $(document).off("scroll");
+
+            $('a').each(function () {
+                $(this).removeClass('active');
+            })
+            $(this).addClass('active');
+
+            var target = this.hash;
+            $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $(document).on("scroll", onScroll);
+            });
+        });
+    });
+
+    function onScroll(event) {
+        var scrollPosition = $(document).scrollTop();
+        $('nav a').each(function () {
+            var currentLink = $(this);
+            var refElement = $(currentLink.attr("href"));
+            if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+                $('nav ul li a').removeClass("active");
+                currentLink.addClass("active");
+            }
+            else {
+                currentLink.removeClass("active");
+            }
+        });
+    }
+</script>
+</body>
+</html>

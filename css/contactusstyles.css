@@ -1,0 +1,68 @@
+.op8 {
+    opacity: 0.8
+}
+
+.opinv{
+    opacity: 0
+}
+.opvis{
+    opacity: 1
+}
+
+.btnSend {
+    -moz-box-shadow: 0px 0px 5px 0px #3dc21b;
+    -webkit-box-shadow: 0px 0px 5px 0px #3dc21b;
+    box-shadow: 0px 0px 5px 0px #3dc21b;
+    background-color: #44c767;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 10px 18px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.btnSend:hover {
+    background-color: #5cbf2a;
+}
+
+.btnSend:active {
+    position: relative;
+    top: 1px;
+}
+
+.contact {
+    padding: 60px 0px;
+    float: left;
+    width: 100%;
+    /*background: #1b6d85;*/
+}
+
+.contact-form, .address-space {
+    margin-top: 0px;
+}
+
+#map-canvas {
+    height: 275px;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: #212A3F !important;
+}
+
+.address p {
+    font-size: 15px;
+    color: #000000;
+}
+
+.address p i {
+    padding-right: 10px;
+    font-size: 15px;
+    color: #8AB839;
+}
