@@ -9,11 +9,11 @@
             </div>
             <div class="content">
                 <div class="main">
-                    <h3 class="name">Inna Corman</h3>
-                    <p class="profession">Product Manager</p>
-                    <h5><i class="fa fa-map-marker fa-fw text-muted"></i> Paris, France</h5>
+                    <h3 class="name">Chathuranga Dassanayake</h3>
+                    <p class="profession">Developer</p>
+                    <h5><i class="fa fa-map-marker fa-fw text-muted"></i> Kottawa, SriLanka </h5>
                     <h5><i class="fa fa-building-o fa-fw text-muted"></i> Creative Tim Inc. </h5>
-                    <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> inna@creative-tim.com</h5>
+                    <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> chathura2ihl@gmail.com</h5>
                 </div>
                 <div class="cardfooter">
                     <div class="rating">
@@ -33,7 +33,7 @@
                     <h4 class="text-center">Experince</h4>
                     <p>Inna was working with our team since 2012.</p>
                     <h4 class="text-center">Areas of Expertise</h4>
-                    <p>Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                    <p>Game Development, Web design, Adobe Photoshop, HTML5, CSS3 and many others...</p>
                 </div>
             </div>
             <div class="cardfooter">

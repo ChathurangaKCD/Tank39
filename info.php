@@ -249,18 +249,6 @@ include("php/headerx.php");
 <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script src="js/lightbox.min.js"></script>
-<script>
-    function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-            center: new google.maps.LatLng(26.802100, 75.822739),
-            zoom: 8,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
 <script src="js/events.js"></script>
 </body>
 </html>

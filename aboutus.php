@@ -38,7 +38,7 @@ include("php/headerx.php");
 <div class="container-fluid abtbackg">
     <div class="container">
         <div class="row">
-            <?php include("php/clientInfo1.php");?>
+            <?php include("php/aboutus2.php");?>
         </div>
     </div>
 </div>

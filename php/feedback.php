@@ -59,8 +59,8 @@
 $mailto = 'group39@outlook.com';
 $subject = "Feedback Recieved";
 $formurl = "http://tank39.netau.net/contactus.html";
-$thankyouurl = "http://tank39.netau.net";
-$errorurl = "http://tank39.netau.net/contactus.php";
+$thankyouurl = "http://tank39.16mb";
+$errorurl = "http://tank39.16mb/contactus.php";
 
 $email_is_required = 1;
 $name_is_required = 1;

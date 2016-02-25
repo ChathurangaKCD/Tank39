@@ -86,7 +86,7 @@ include("php/headerx.php");
     <script type="text/javascript" src="js/jquery.downCount.js"></script>
     <script class="source" type="text/javascript">
         $('.countdown').downCount({
-            date: '12/12/2015 12:00:00',
+            date: '05/03/2016 9:00:00',
             offset: +10
         }, function () {
             alert('Already launched!');
